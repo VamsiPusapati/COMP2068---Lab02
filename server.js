@@ -10,7 +10,7 @@ let app = connect();
 
 //index page
 let index = function (method, res, next) {
-	res.end('Node.JS Calculators');
+	res.end('Node.JS Calculator');
 };
 
 let calculate = function (req, res, next) {
